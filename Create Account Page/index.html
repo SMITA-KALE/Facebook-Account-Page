@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create Account</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="script1.js"></script>
+
+    </head>
+    <body>
+        <table align="center" cellpadding="10" class="t">
+            <tr>
+                <td>
+                    <font size="6">Create Account</font><br>
+                    <form onsubmit= "return validateform()" id="form" name="myform" method="post">
+                        <b>Your Name</b><br>
+                        <input type="text" name="name" class="in" size="50"><br>
+                        <b>Mobile Number</b><br>
+                         <select>
+                             <option>IN +91</option>
+                             <option>AF +93</option>
+                             <option>us +1</option>
+                             <option>GB +44</option>
+                             <option>SE +46</option>
+                         </select>
+                         &emsp;<input type="number" name="num" class="in" placeholder="Mobile Number"
+                         maxlength="10" minlength="8" size="37"><br>
+                         <b>Email</b><br>
+                         <input type="Email" name="email" size="50" class="in"><br>
+                         <b>Password</b><br>
+                         <input type="password" name="pass" size="50" class="in" minlength="6" placeholder="At Least 6 Charactor"><br><br>
+                         <font color="blue"><i>i</i></font><font size="2"> Password must be at least 6 charactor</font><br><br>
+                         We will send you a text to verify your phone.<br>
+                         Message and data rates may apply.<br><br>
+                         <button class="button" type="submit">Continue</button><br>
+                         <br>Already have an account?<a href="signin.html" class="link">Sign in</a>
+                    </form>
+                </td>
+            </tr>
+
+        </table>
+
+    </body>
+</html>

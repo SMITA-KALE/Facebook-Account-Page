@@ -1,0 +1,52 @@
+body{
+    padding-top: 30px;
+    font-family: Calibri;
+}
+
+.button
+{
+    background-image: linear-gradient(#ffe680,#ffb84d);
+    color: black;
+    padding: 7px 130px;
+    text-align: center;
+    border: 1px solid #cc6600;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.link{
+   
+    text-decoration: none;
+}
+a{
+    color: #1a75ff;
+}
+a:hover{
+    color: #cc7a00;
+    text-decoration: underline;
+}
+.in{
+    height: 35px;
+    border: 1px solid #bfbfbf;
+    border-top: 2px;
+    border-radius: 3px;
+}
+input focus{
+    border-color: orange;
+}
+.t{
+    border-radius: 10px;
+    border:1px solid #cccccc;
+    box-shadow: 0px 0px 20px 10px grey;
+}
+.se{
+    height: 35px;
+    background-color: #e6e6e6;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    cursor: pointer;
+}
+select:hover{
+    border-color: orange;
+}
